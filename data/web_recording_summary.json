@@ -1,0 +1,475 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "font/woff2"
+    },
+    {
+      "IsNonResource": false,
+      "type": "font/woff"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 14,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Sep-11-2024",
+    "RecordingDuration": 111625,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1726040418,
+    "RecordingType": "Proxy",
+    "TotalBytesReceived": 547088,
+    "TotalBytesSent": 5806,
+    "TotalRequests": 14,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "shaft.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "10.10.10.32",
+          "IncludeInScript": true,
+          "Name": "pets.shaft.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 126,
+              "HttpStatus": 200,
+              "Size": 3511,
+              "URL": "http://pets.shaft.com/owners/475603"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 123,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://pets.shaft.com/owners?lastName=arjun8181"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 89,
+              "HttpStatus": 200,
+              "Size": 3539,
+              "URL": "http://pets.shaft.com/owners/find"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 46,
+              "HttpStatus": 200,
+              "Size": 528,
+              "URL": "http://pets.shaft.com/resources/images/favicon.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff",
+              "DownloadTime": 16,
+              "EventId": 42,
+              "HttpStatus": 200,
+              "Size": 32712,
+              "URL": "http://pets.shaft.com/resources/fonts/varela_round-webfont.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff",
+              "DownloadTime": 0,
+              "EventId": 38,
+              "HttpStatus": 200,
+              "Size": 24240,
+              "URL": "http://pets.shaft.com/resources/fonts/montserrat-webfont.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff2",
+              "DownloadTime": 0,
+              "EventId": 34,
+              "HttpStatus": 200,
+              "Size": 77160,
+              "URL": "http://pets.shaft.com/webjars/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 30,
+              "HttpStatus": 200,
+              "Size": 6888,
+              "URL": "http://pets.shaft.com/resources/images/spring-logo-dataflow.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 0,
+              "EventId": 26,
+              "HttpStatus": 200,
+              "Size": 78129,
+              "URL": "http://pets.shaft.com/webjars/bootstrap/5.1.3/dist/js/bootstrap.bundle.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 22,
+              "HttpStatus": 200,
+              "Size": 2818,
+              "URL": "http://pets.shaft.com/resources/images/spring-pivotal-logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 18,
+              "HttpStatus": 200,
+              "Size": 67721,
+              "URL": "http://pets.shaft.com/resources/images/pets.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 15,
+              "EventId": 14,
+              "HttpStatus": 200,
+              "Size": 215869,
+              "URL": "http://pets.shaft.com/resources/css/petclinic.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 16,
+              "EventId": 10,
+              "HttpStatus": 200,
+              "Size": 31000,
+              "URL": "http://pets.shaft.com/webjars/font-awesome/4.7.0/css/font-awesome.min.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 6,
+              "HttpStatus": 200,
+              "Size": 2973,
+              "URL": "http://pets.shaft.com/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "iana.org",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "152.199.24.38",
+          "IncludeInScript": false,
+          "Name": "data.iana.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 76,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.196.10",
+          "IncludeInScript": false,
+          "Name": "www.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 71,
+              "HttpStatus": 200,
+              "Size": 459,
+              "URL": "https://www.googleapis.com/oauth2/v4/token"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.196.35",
+          "IncludeInScript": false,
+          "Name": "update.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 104,
+              "HttpStatus": 200,
+              "Size": 3844,
+              "URL": "https://update.googleapis.com/service/update2/json?cup2key=14:eb0H2lWCxUizIYgcGTVUtRB1tKG7PQT2TYhaPCDCuIk&cup2hreq=3d3464ad250adf1c1290d24f7109da16b73b9664e8decc24b5333591f20afecc"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 51,
+              "HttpStatus": 200,
+              "Size": 1813,
+              "URL": "https://update.googleapis.com/service/update2/json?cup2key=14:XWoATDndtGca0jG-so32q1Vwa9t3vhMq9meaHRSa7YY&cup2hreq=758cb58fce88248d74e871fabf271cb6a2f320eecf9afddfb94d1dabb715db63"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.77.138",
+          "IncludeInScript": false,
+          "Name": "optimizationguide-pa.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 0,
+              "EventId": 66,
+              "HttpStatus": 200,
+              "Size": 8353,
+              "URL": "https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.193.138",
+          "IncludeInScript": false,
+          "Name": "content-autofill.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 94,
+              "HttpStatus": 200,
+              "Size": 16,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTI4LjAuNjYxMy4xMjESGQmZm7YW2A-3bxIFDU-eJ_ghu6ECwUhUlhA=?alt=proto"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.183.227",
+          "IncludeInScript": false,
+          "Name": "clientservices.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 119,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 114,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 109,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 99,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 3,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=128"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.196.14",
+          "IncludeInScript": false,
+          "Name": "clients4.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/vnd.google.octet-stream-compressible",
+              "DownloadTime": 15,
+              "EventId": 85,
+              "HttpStatus": 200,
+              "Size": 244,
+              "URL": "https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=K%2Fu%2BtUqeoG%2BAdjJVCoSrLA%3D%3D"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/vnd.google.octet-stream-compressible",
+              "DownloadTime": 0,
+              "EventId": 80,
+              "HttpStatus": 200,
+              "Size": 4150,
+              "URL": "https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=K%2Fu%2BtUqeoG%2BAdjJVCoSrLA%3D%3D"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.196.14",
+          "IncludeInScript": false,
+          "Name": "clients2.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/xml",
+              "DownloadTime": 0,
+              "EventId": 61,
+              "HttpStatus": 200,
+              "Size": 852,
+              "URL": "https://clients2.google.com/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=128.0.6613.121&lang=en-US&acceptformat=crx3,puff&x=id%3Dglmfdkfmoamfkgkncklicdngnfabhaim%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D10%2526e%253D0%2526dr%253D1&x=id%3Dhemlmgggokggmncimchkllhcjcaimcle%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF&x=id%3Djbldcomffojmkkjbblhcebeicbncmjpf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D10%2526e%253D0%2526dr%253D1%2526dr%253D512&x=id%3Dodlnghcomkeenpeblhddfpacdncfjmna%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D10%2526e%253D0%2526dr%253D1"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "74.125.130.84",
+          "IncludeInScript": false,
+          "Name": "accounts.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 56,
+              "HttpStatus": 200,
+              "Size": 675,
+              "URL": "https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 0
+}
